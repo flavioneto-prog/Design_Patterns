@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleStrategy", "DesignPatterns\ConsoleStrategy.csproj", "{5CA672D4-C004-41FE-837A-A7A2BDC2BD42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleStrategy", "DesignPatterns\ConsoleStrategy.csproj", "{5CA672D4-C004-41FE-837A-A7A2BDC2BD42}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Pattern - Strategy", "1 - Pattern - Strategy", "{340AF1D4-AE18-4CD1-BDC4-42D54041D320}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Pattern - Null Object", "2 - Pattern - Null Object", "{D9B164FD-DACC-443D-8136-F2E5E714DB9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleNullObject", "ConsoleNullObject\ConsoleNullObject.csproj", "{1C1CA7FC-1E7C-4522-B6CE-CF5F62B45153}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleNullObject", "ConsoleNullObject\ConsoleNullObject.csproj", "{1C1CA7FC-1E7C-4522-B6CE-CF5F62B45153}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Pattern - Hook Method - Template Method", "3 - Pattern - Hook Method - Template Method", "{A243A278-C2A2-43FD-B8CC-AB11E5AFB154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTemplateMethod", "ConsoleTemplateMethod\ConsoleTemplateMethod.csproj", "{595CF4CC-8B53-43F4-B265-9C7829DB11A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{1C1CA7FC-1E7C-4522-B6CE-CF5F62B45153}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C1CA7FC-1E7C-4522-B6CE-CF5F62B45153}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C1CA7FC-1E7C-4522-B6CE-CF5F62B45153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{595CF4CC-8B53-43F4-B265-9C7829DB11A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{595CF4CC-8B53-43F4-B265-9C7829DB11A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{595CF4CC-8B53-43F4-B265-9C7829DB11A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{595CF4CC-8B53-43F4-B265-9C7829DB11A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5CA672D4-C004-41FE-837A-A7A2BDC2BD42} = {340AF1D4-AE18-4CD1-BDC4-42D54041D320}
 		{1C1CA7FC-1E7C-4522-B6CE-CF5F62B45153} = {D9B164FD-DACC-443D-8136-F2E5E714DB9F}
+		{595CF4CC-8B53-43F4-B265-9C7829DB11A3} = {A243A278-C2A2-43FD-B8CC-AB11E5AFB154}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A9C5F3B-88AE-44EB-8E28-17D07CC3711E}

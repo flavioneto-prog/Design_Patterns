@@ -13,16 +13,16 @@ public abstract class VideoPlayer
     }
 
     // procedimento padrão
-    public void CarregarArquivo()
+    protected void CarregarArquivo()
     {
         Console.WriteLine("\n Arquivo de vídeo carregado...");
     }
 
     // procedimento que será sobrescrito
-    public abstract void DecodeVideoFormato();
+    protected abstract void DecodeVideoFormato();
 
     // procedimento padrão
-    public void IniciarExecucao()
+    protected void IniciarExecucao()
     {
         Console.WriteLine("\n O vídeo iniciou a execução...");
     }

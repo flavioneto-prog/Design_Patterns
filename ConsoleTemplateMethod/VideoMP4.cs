@@ -2,7 +2,7 @@
 
 public class VideoMP4 : VideoPlayer
 {
-    public override void DecodeVideoFormato()
+    protected override void DecodeVideoFormato()
     {
         Console.WriteLine("\n O Vídeo está sendo processado com o Decoder MP4");
     }

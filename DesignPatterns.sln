@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTemplateMethod", "Co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Pattern - Hook Method - Factory Method", "4 - Pattern - Hook Method - Factory Method", "{08BF65B2-9188-493D-B288-470FE3625463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleFactoryMethod", "ConsoleFactoryMethod\ConsoleFactoryMethod.csproj", "{73B6668E-300F-45CD-8E27-3BE31C1003BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleFactoryMethod", "ConsoleFactoryMethod\ConsoleFactoryMethod.csproj", "{73B6668E-300F-45CD-8E27-3BE31C1003BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLanche", "ConsoleLanche\ConsoleLanche.csproj", "{A7BB148E-2EE0-44D1-BCFA-5D79CDA8B6F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{73B6668E-300F-45CD-8E27-3BE31C1003BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73B6668E-300F-45CD-8E27-3BE31C1003BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73B6668E-300F-45CD-8E27-3BE31C1003BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7BB148E-2EE0-44D1-BCFA-5D79CDA8B6F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7BB148E-2EE0-44D1-BCFA-5D79CDA8B6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7BB148E-2EE0-44D1-BCFA-5D79CDA8B6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7BB148E-2EE0-44D1-BCFA-5D79CDA8B6F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{1C1CA7FC-1E7C-4522-B6CE-CF5F62B45153} = {D9B164FD-DACC-443D-8136-F2E5E714DB9F}
 		{595CF4CC-8B53-43F4-B265-9C7829DB11A3} = {A243A278-C2A2-43FD-B8CC-AB11E5AFB154}
 		{73B6668E-300F-45CD-8E27-3BE31C1003BA} = {08BF65B2-9188-493D-B288-470FE3625463}
+		{A7BB148E-2EE0-44D1-BCFA-5D79CDA8B6F4} = {08BF65B2-9188-493D-B288-470FE3625463}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A9C5F3B-88AE-44EB-8E28-17D07CC3711E}

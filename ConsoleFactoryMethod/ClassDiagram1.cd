@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ConsoleFactoryMethod.Caminhao" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Caminhao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleFactoryMethod.Logistica">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logistica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleFactoryMethod.LogisticaMaritima">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>LogisticaMaritima.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleFactoryMethod.LogisticaViaria">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>LogisticaViaria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleFactoryMethod.Navio" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Navio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleFactoryMethod.Transporte">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transporte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

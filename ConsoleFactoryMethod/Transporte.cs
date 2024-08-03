@@ -1,6 +1,6 @@
 ﻿namespace ConsoleFactoryMethod;
 
-public interface Transporte
+public abstract class Transporte
 {
-    public void Entregar();
+    public abstract void Entregar();
 }

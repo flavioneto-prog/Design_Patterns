@@ -2,7 +2,7 @@
 
 public class Caminhao : Transporte
 {
-    public void Entregar()
+    public override void Entregar()
     {
         Console.WriteLine("Entrega feita por caminhão...");
     }

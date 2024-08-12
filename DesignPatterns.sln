@@ -21,9 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleFactoryMethod", "Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleLanche", "ConsoleLanche\ConsoleLanche.csproj", "{A7BB148E-2EE0-44D1-BCFA-5D79CDA8B6F4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5  -Pattern - Bridge", "5  -Pattern - Bridge", "{B37662E2-C1E9-4E17-8F44-2A0D713C74E6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Pattern - Bridge - Hook Method - Hook Class", "5 - Pattern - Bridge - Hook Method - Hook Class", "{B37662E2-C1E9-4E17-8F44-2A0D713C74E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBridge", "ConsoleBridge\ConsoleBridge.csproj", "{A2D776D5-62BA-458D-ACFF-CDE39E5DF934}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleBridge", "ConsoleBridge\ConsoleBridge.csproj", "{A2D776D5-62BA-458D-ACFF-CDE39E5DF934}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Pattern - State - Hook Method - Hook Class", "6 - Pattern - State - Hook Method - Hook Class", "{A53A8B22-3EDF-4397-B1D5-4733F1CBCA76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleExemploConceitual", "ConsoleExemploConceitual\ConsoleExemploConceitual.csproj", "{426D36D2-3C6A-44ED-BDD1-6E3BB0DB430D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,10 @@ Global
 		{A2D776D5-62BA-458D-ACFF-CDE39E5DF934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2D776D5-62BA-458D-ACFF-CDE39E5DF934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2D776D5-62BA-458D-ACFF-CDE39E5DF934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{426D36D2-3C6A-44ED-BDD1-6E3BB0DB430D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{426D36D2-3C6A-44ED-BDD1-6E3BB0DB430D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{426D36D2-3C6A-44ED-BDD1-6E3BB0DB430D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{426D36D2-3C6A-44ED-BDD1-6E3BB0DB430D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +74,7 @@ Global
 		{73B6668E-300F-45CD-8E27-3BE31C1003BA} = {08BF65B2-9188-493D-B288-470FE3625463}
 		{A7BB148E-2EE0-44D1-BCFA-5D79CDA8B6F4} = {08BF65B2-9188-493D-B288-470FE3625463}
 		{A2D776D5-62BA-458D-ACFF-CDE39E5DF934} = {B37662E2-C1E9-4E17-8F44-2A0D713C74E6}
+		{426D36D2-3C6A-44ED-BDD1-6E3BB0DB430D} = {A53A8B22-3EDF-4397-B1D5-4733F1CBCA76}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A9C5F3B-88AE-44EB-8E28-17D07CC3711E}

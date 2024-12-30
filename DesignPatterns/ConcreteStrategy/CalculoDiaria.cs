@@ -6,8 +6,13 @@ namespace ConsoleStrategy.ConcreteStrategy;
 // Concrete Strategy
 public class CalculoDiaria : CalculoValor
 {
-    private const double ValorDiaria = 15;
+    private readonly double ValorDiaria;
     private const int DIA_EM_MINUTOS = 1440;
+
+    public CalculoDiaria(double valorDiaria)
+    {
+        ValorDiaria = valorDiaria;
+    }
 
     public double Calcular(DateTime dataEntrada, DateTime dataSaida, Veiculo veiculo)
     {

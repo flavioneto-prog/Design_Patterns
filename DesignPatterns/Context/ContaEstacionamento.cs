@@ -6,15 +6,21 @@ namespace ConsoleStrategy.Context;
 // context
 public class ContaEstacionamento
 {
-    public ContaEstacionamento(CalculoValor calculoValor)
+    private readonly CalculoValor CalculoValor;
+    private readonly Veiculo Veiculo;
+    private readonly DateTime DataEntrada;
+    private readonly DateTime DataSaida;
+
+    public ContaEstacionamento(CalculoValor calculoValor, Veiculo veiculo, DateTime dataEntrada, DateTime dataSaida)
     {
         CalculoValor = calculoValor;
+        Veiculo = veiculo;
+        DataEntrada = dataEntrada;
+        DataSaida = dataSaida;
     }
 
-    private CalculoValor CalculoValor;
-
-    public double ValorConta(DateTime dataEntrada, DateTime dataSaida, Veiculo veiculo)
+    public double ValorConta()
     {
-        return CalculoValor.Calcular(dataEntrada, dataSaida, veiculo);
+        return CalculoValor.Calcular(DataEntrada, DataSaida, Veiculo);
     }
 }

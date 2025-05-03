@@ -3,17 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Pattern - Strategy", "Behavioral Pattern - Strategy", "{340AF1D4-AE18-4CD1-BDC4-42D54041D320}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Others Patterns", "Others Patterns", "{D9B164FD-DACC-443D-8136-F2E5E714DB9F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Others Pattern - Null Object", "Others Pattern - Null Object", "{D9B164FD-DACC-443D-8136-F2E5E714DB9F}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Pattern - Hook Method - Template Method", "Behavioral Pattern - Hook Method - Template Method", "{A243A278-C2A2-43FD-B8CC-AB11E5AFB154}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Pattern - Hook Method - Factory Method", "Creational Pattern - Hook Method - Factory Method", "{08BF65B2-9188-493D-B288-470FE3625463}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Pattern - Bridge - Hook Method - Hook Class", "Structural Pattern - Bridge - Hook Method - Hook Class", "{B37662E2-C1E9-4E17-8F44-2A0D713C74E6}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Pattern - State - Hook Method - Hook Class", "Behavioral Pattern - State - Hook Method - Hook Class", "{A53A8B22-3EDF-4397-B1D5-4733F1CBCA76}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Patterns", "Behavioral Patterns", "{A243A278-C2A2-43FD-B8CC-AB11E5AFB154}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Behavioral Patterns\Strategy\Strategy.csproj", "{FBD0F44D-9437-4453-BF5C-B408CF9727A0}"
 EndProject
@@ -29,13 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod2", "Creationa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "Behavioral Patterns\State\State.csproj", "{3BD5D455-5BAE-45F4-B9F5-29C4C9D71B8D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Pattern - Abstract Factory", "Creational Pattern - Abstract Factory", "{1FEDD8AD-DF1D-48A9-AA51-934F5D8F62ED}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Creational Patterns\AbstractFactory\AbstractFactory.csproj", "{EC06F882-D6E0-42DB-90AA-34F6ED917E87}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Pattern - Builder", "Creational Pattern - Builder", "{D45E5083-A2E8-4109-98AC-F4B9A4C5B2DA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Creational Patterns\Builder\Builder.csproj", "{1615933C-07B7-4AA3-98FC-0183163BBFD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{E1CD50AD-FAB1-4A6D-9DC9-91E7AFFD73D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Patterns", "Structural Patterns", "{F25505C8-E80E-4C56-9066-A41CC4951715}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -84,15 +76,15 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{FBD0F44D-9437-4453-BF5C-B408CF9727A0} = {340AF1D4-AE18-4CD1-BDC4-42D54041D320}
+		{FBD0F44D-9437-4453-BF5C-B408CF9727A0} = {A243A278-C2A2-43FD-B8CC-AB11E5AFB154}
 		{A89C53A0-2DE7-4BCA-8B80-1CFFBBA43333} = {D9B164FD-DACC-443D-8136-F2E5E714DB9F}
 		{3E0AD198-52FA-4F28-89B4-9FC351A22F0E} = {A243A278-C2A2-43FD-B8CC-AB11E5AFB154}
-		{F9342B8B-4940-43D2-BF9E-EC7C9E26732D} = {B37662E2-C1E9-4E17-8F44-2A0D713C74E6}
-		{B7A4F197-7C88-48BA-A236-7673F865A020} = {08BF65B2-9188-493D-B288-470FE3625463}
-		{4B6FEA79-7765-40F1-92E1-8DB5161C4F52} = {08BF65B2-9188-493D-B288-470FE3625463}
-		{3BD5D455-5BAE-45F4-B9F5-29C4C9D71B8D} = {A53A8B22-3EDF-4397-B1D5-4733F1CBCA76}
-		{EC06F882-D6E0-42DB-90AA-34F6ED917E87} = {1FEDD8AD-DF1D-48A9-AA51-934F5D8F62ED}
-		{1615933C-07B7-4AA3-98FC-0183163BBFD3} = {D45E5083-A2E8-4109-98AC-F4B9A4C5B2DA}
+		{F9342B8B-4940-43D2-BF9E-EC7C9E26732D} = {F25505C8-E80E-4C56-9066-A41CC4951715}
+		{B7A4F197-7C88-48BA-A236-7673F865A020} = {E1CD50AD-FAB1-4A6D-9DC9-91E7AFFD73D9}
+		{4B6FEA79-7765-40F1-92E1-8DB5161C4F52} = {E1CD50AD-FAB1-4A6D-9DC9-91E7AFFD73D9}
+		{3BD5D455-5BAE-45F4-B9F5-29C4C9D71B8D} = {A243A278-C2A2-43FD-B8CC-AB11E5AFB154}
+		{EC06F882-D6E0-42DB-90AA-34F6ED917E87} = {E1CD50AD-FAB1-4A6D-9DC9-91E7AFFD73D9}
+		{1615933C-07B7-4AA3-98FC-0183163BBFD3} = {E1CD50AD-FAB1-4A6D-9DC9-91E7AFFD73D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A9C5F3B-88AE-44EB-8E28-17D07CC3711E}

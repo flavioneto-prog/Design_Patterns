@@ -1,7 +1,6 @@
-﻿using AbstractFactory.Domain.Enums;
-using AbstractFactoryDemo.Domain.Enums;
-using AbstractFactoryDemo.Domain.Products;
-using AbstractFactoryDemo.Factory.AbstractFactory;
+﻿using AbstractFactory.AbstractFactory;
+using AbstractFactory.Domain.Enums;
+using AbstractFactory.Domain.Products;
 
 // Obtém as fábricas
 var boloFactory = MassasAbstractFactory.CriarFabricaMassas(ETipoMassa.Bolo);

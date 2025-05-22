@@ -49,3 +49,31 @@ git clone https://github.com/flavioneto-prog/Design_Patterns.git
 ```
 dotnet run
 ```
+
+## 🧠 Características Chave dos Padrões Comportamentais
+```
+Padrão	                |   Intenção
+------------------------------------------------------------------------------------------------------------------
+Strategy                |	  Encapsular algoritmos ou comportamentos intercambiáveis
+------------------------------------------------------------------------------------------------------------------
+Observer                |   Notificar objetos sobre mudanças de estado
+------------------------------------------------------------------------------------------------------------------
+Command	                |   Encapsular uma solicitação como um objeto
+------------------------------------------------------------------------------------------------------------------
+Chain of Responsibility |	  Passar solicitações por uma cadeia de manipuladores
+------------------------------------------------------------------------------------------------------------------
+Mediator	              |   Centralizar a comunicação complexa entre objetos
+------------------------------------------------------------------------------------------------------------------
+State	                  |   Permitir que o comportamento do objeto mude com seu estado interno
+------------------------------------------------------------------------------------------------------------------
+Template Method         |	  Definir o esqueleto de um algoritmo em um método
+------------------------------------------------------------------------------------------------------------------
+Visitor	                |   Executar operações em elementos de uma estrutura sem alterá-los
+------------------------------------------------------------------------------------------------------------------
+Iterator	              |   Acessar elementos de um agregado sequencialmente sem expor seus componentes internos
+------------------------------------------------------------------------------------------------------------------
+Memento	                |   Capturar e restaurar o estado interno de um objeto
+------------------------------------------------------------------------------------------------------------------
+Interpreter	            |   Definir uma gramática e interpretar frases no idioma
+------------------------------------------------------------------------------------------------------------------
+```

@@ -51,7 +51,7 @@ dotnet run
 ```
 
 ## 🧠 Características Chave dos Padrões Comportamentais
-```
+
 | Padrão                  | Intenção                                                                             |
 | ----------------------- |:------------------------------------------------------------------------------------:|
 | Strategy                | Encapsular algoritmos ou comportamentos intercambiáveis
@@ -65,4 +65,3 @@ dotnet run
 | Iterator                | Acessar elementos de um agregado sequencialmente sem expor seus componentes internos
 | Memento                 | Capturar e restaurar o estado interno de um objeto
 | Interpreter             | Definir uma gramática e interpretar frases no idioma
-```

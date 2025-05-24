@@ -50,13 +50,13 @@ git clone https://github.com/flavioneto-prog/Design_Patterns.git
 dotnet run
 ```
 
-## Padrões Criacionais
+## 📌 Padrões Criacionais
 * Os padrões de design criacionais ajudam a tornar um sistema independente de como seus objetos são criados, compostos e representados.
 
-## Padrões Estruturais
+## 📌 Padrões Estruturais
 * Os padrões de design estruturais se preocupam com a forma como as classes e os objetos são compostos para formar uma grande estrutura.
 
-## Padrões Comportamentais
+## 📌 Padrões Comportamentais
 * Os padrões de design comportamentais estão relacionados a algoritmos e à atribuição de responsabilidades entre objetos.
 
 ## 🧠 Características Chave dos Padrões Criacionais
@@ -97,7 +97,7 @@ dotnet run
 | Memento                 | Capturar e restaurar o estado interno de um objeto.
 | Interpreter             | Definir uma representação gramatical para uma linguagem e fornece um intérprete para lidar com essa gramática.
 
-## Casos de Uso
+## 💡 Casos de Uso
 1. Melhorando a escalabilidade:
    1. Nos permite criar recursos flexíveis e mais fáceis de adicionar novos.
 2. Simplificando problemas complexos:

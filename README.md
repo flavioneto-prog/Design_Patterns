@@ -65,3 +65,13 @@ dotnet run
 | Iterator                | Acessar elementos de um agregado sequencialmente sem expor seus componentes internos
 | Memento                 | Capturar e restaurar o estado interno de um objeto
 | Interpreter             | Definir uma gramática e interpretar frases no idioma
+
+## 🧠 Características Chave dos Padrões Criacionais
+
+| Padrão                  | Intenção                                                                             |
+| ----------------------- |:------------------------------------------------------------------------------------:|
+| Singleton               | Garantir que uma classe tenha apenas uma instância e fornecer um ponto de acesso global
+| Factory Method          | Definir uma interface para criar um objeto, mas permite que as subclasses alterem o tipo
+| Abstract Factory        | Fornecer uma interface para criar famílias de objetos relacionados ou dependentes
+| Builder                 | Separar a construção de um objeto complexo de sua representação
+| Prototype               | Criar novos objetos copiando um objeto existente

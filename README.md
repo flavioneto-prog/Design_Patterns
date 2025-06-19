@@ -7,11 +7,11 @@ O objetivo é demonstrar como implementar e utilizar esses padrões para melhora
 
 O projeto é uma coleção de implementações de padrões de projeto clássicos, divididos em três categorias principais:
 
-* Padrões Criacionais: Envolvem processos de criação de objetos, visando aumentar a flexibilidade e a reutilização de código.
+1. Padrões Criacionais
 
-* Padrões Estruturais: Tratam da composição de classes e objetos para formar estruturas maiores e mais complexas.
+2. Padrões Estruturais
 
-* Padrões Comportamentais: Focam na comunicação entre objetos e na delegação de responsabilidades.
+3. Padrões Comportamentais
 
 ## 🔧 Tecnologias Utilizadas
 
@@ -63,11 +63,11 @@ dotnet run
 
 | Padrão                  | Intenção                                                                             |
 | ----------------------- |:------------------------------------------------------------------------------------:|
-| Singleton               | Garantir que uma classe tenha apenas uma instância e fornecer um ponto de acesso global.
-| Factory Method          | Definir uma interface para criar um objeto, mas permite que as subclasses alterem o tipo.
-| Abstract Factory        | Fornecer uma interface para criar famílias de objetos relacionados ou dependentes.
-| Builder                 | Separar a construção de um objeto complexo de sua representação.
-| Prototype               | Criar novos objetos copiando um objeto existente.
+| Singleton               | Garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a ela.
+| Factory Method          | Define uma interface para criar um objeto, mas permite que subclasses decidam qual classe instanciar.
+| Abstract Factory        | Fornece uma interface para criar famílias de objetos relacionados ou dependentes, sem especificar suas classes concretas.
+| Builder                 | Separa a construção de um objeto complexo da sua representação, permitindo diferentes representações com o mesmo processo de construção.
+| Prototype               | Cria novos objetos copiando uma instância existente (clone), em vez de criar a partir do zero.
 
 ## 🧠 Características Chave dos Padrões Estruturais
 

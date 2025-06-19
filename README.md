@@ -73,29 +73,29 @@ dotnet run
 
 | Padrão                  | Intenção                                                                             |
 | ----------------------- |:------------------------------------------------------------------------------------:|
-| Adapter                 | Converter uma interface em outra que um cliente espera.
-| Bridge                  | Desacoplar uma abstração de sua implementação para que elas possam variar independentemente.
-| Composite               | Compor objetos em estruturas de árvore para representar hierarquias parte-todo.
-| Decorator               | Permite adicionar dinamicamente funcionalidade e comportamento a um objeto sem afetar o comportamento de outros objetos existentes na mesma classe.
-| Facade                  | Fornecer uma interface simplificada para um subsistema complexo.
-| Flyweight               | Reduzir o uso de memória ao compartilhar partes comuns do estado entre vários objetos.
-| Proxy                   | Fornecer um substituto ou espaço reservado para controlar o acesso a outro objeto.
+| Adapter                 | Permite que interfaces incompatíveis trabalhem juntas, convertendo a interface de uma classe em outra esperada.
+| Bridge                  | Separa uma abstração da sua implementação, permitindo que as duas evoluam independentemente.
+| Composite               | Compõe objetos em estruturas de árvore para representar hierarquias "parte-todo". Permite tratar objetos individuais e composições de maneira uniforme.
+| Decorator               | Adiciona responsabilidades a objetos dinamicamente, como alternativa flexível à subclasse.
+| Facade                  | Fornece uma interface unificada para um conjunto de interfaces em um subsistema, tornando-o mais fácil de usar.
+| Flyweight               | Usa compartilhamento para suportar grandes quantidades de objetos de forma eficiente, quando muitos objetos têm o mesmo estado interno.
+| Proxy                   | Fornece um substituto ou representante de outro objeto para controlar o acesso a ele (ex: cache).
 
 ## 🧠 Características Chave dos Padrões Comportamentais
 
 | Padrão                  | Intenção                                                                             |
 | ----------------------- |:------------------------------------------------------------------------------------:|
-| Strategy                | Encapsular algoritmos ou comportamentos intercambiáveis.
-| Observer                | Notificar objetos sobre mudanças de estado.
-| Command                 | Transforma uma solicitação em um objeto independente, contendo todas as informações sobre a solicitação.
-| Chain of Responsibility | Passar solicitações por uma cadeia de manipuladores/objetos.
-| Mediator                | Centralizar a comunicação complexa entre objetos.
-| State                   | Permitir que o comportamento do objeto mude com seu estado interno.
-| Template Method         | Definir um algoritmo como um esqueleto de operações e deixar os detalhes para serem implementados pelas classes filhas.
-| Visitor                 | Permite separar algoritmos dos objetos nos quais operam. Ele permite adicionar novas operações a estruturas de objetos existentes sem modificá-las.
-| Iterator                | Acessar elementos de um agregado sequencialmente sem expor seus componentes internos.
-| Memento                 | Capturar e restaurar o estado interno de um objeto.
-| Interpreter             | Definir uma representação gramatical para uma linguagem e fornece um intérprete para lidar com essa gramática.
+| Strategy                | Define uma família de algoritmos, encapsula cada um e os torna intercambiáveis.
+| Observer                | Define uma dependência um-para-muitos entre objetos, de modo que quando um objeto muda de estado, seus dependentes são notificados automaticamente.
+| Command                 | Encapsula uma solicitação como um objeto, permitindo parametrizar clientes com diferentes requisições, enfileirar ou fazer log de comandos.
+| Chain of Responsibility | Passa uma solicitação por uma cadeia de objetos até que um deles a trate.
+| Mediator                | Define um objeto que encapsula como um conjunto de objetos interage, promovendo o baixo acoplamento.
+| State                   | Permite a um objeto alterar seu comportamento quando seu estado interno muda, como se ele mudasse de classe.
+| Template Method         | Define o esqueleto de um algoritmo numa operação, deixando alguns passos para subclasses.
+| Visitor                 | Permite definir novas operações em uma estrutura de objetos sem modificar as classes dos elementos em que opera.
+| Iterator                | Fornece uma maneira de acessar elementos de uma coleção sequencialmente, sem expor sua estrutura interna.
+| Memento                 | Captura e externaliza o estado interno de um objeto sem violar o encapsulamento, permitindo restaurar esse estado depois.
+| Interpreter             | Interpreta sentenças de uma linguagem definida por uma gramática.
 
 ## 💡 Casos de Uso
 1. Melhorando a escalabilidade:
